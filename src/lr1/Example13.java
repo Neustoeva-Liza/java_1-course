@@ -1,0 +1,27 @@
+package lr1;
+
+import java.util.Scanner;
+
+//Напишите программу для вычисления суммы двух чисел.
+//Оба числа вводятся пользователем. Для вычисления суммы используйте оператор +.
+
+public class Example13 {
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Программа вычесления суммы двух чисел");
+
+        System.out.print("Введите первое число: ");
+        int a = in.nextInt();
+
+        System.out.print("Введите второе число: ");
+        int b = in.nextInt();
+
+        int sum = a + b;
+
+        System.out.println("Сумма равна: "  + sum);
+
+        in.close();
+    }
+
+}
