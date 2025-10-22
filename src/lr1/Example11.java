@@ -24,5 +24,4 @@ public class Example11 {
 
         in.close();
     }
-
 }

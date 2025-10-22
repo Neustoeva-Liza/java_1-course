@@ -23,7 +23,6 @@ public class task_1585 {
             }
             i++;
         }
-        int max = Math.max(emperor,Math.max(little,macaroni));
         in.close();
 
         if (emperor > little && emperor > macaroni) {
