@@ -7,6 +7,7 @@ public class task_2100 {
         Scanner in = new Scanner(System.in);
 
         int n = in.nextInt();
+        in.nextLine();
 
         int totalGuests = 2;
 
@@ -25,8 +26,6 @@ public class task_2100 {
         }
 
         int cost = totalGuests * 100;
-        System.out.println();
-
         System.out.println(cost);
 
         in.close();
