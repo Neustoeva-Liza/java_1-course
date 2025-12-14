@@ -11,7 +11,7 @@ public class Exercise7 {
     static int[] charCodes(char[] chars) {
         int[] codes = new int[chars.length];
         for (int i = 0; i < chars.length; i++) {
-            codes[i] = chars[i];   // неявное преобразование char → int
+            codes[i] = chars[i];
         }
         return codes;
     }
