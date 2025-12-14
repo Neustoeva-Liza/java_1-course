@@ -18,7 +18,6 @@ public class Exercise2 {
         this.startChar = start;
         this.endChar = end;
     }
-
     public void printCharRange() {
         char first = startChar < endChar ? startChar : endChar;
         char last = startChar > endChar ? startChar : endChar;
@@ -30,7 +29,6 @@ public class Exercise2 {
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
