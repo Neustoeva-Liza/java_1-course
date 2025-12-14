@@ -11,7 +11,11 @@ public class task_1607 {
         int a = in.nextInt(), b = in.nextInt(), c = in.nextInt(), d = in.nextInt();
 
         while (a<c){
-            a +=b;
+            a += b;
+            if (a > c) {
+                a = c;
+                break;
+            }
             c -=d;
         }
         System.out.println(a);
