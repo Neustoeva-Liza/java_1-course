@@ -1,4 +1,4 @@
-package timus;
+package timus.first_semester;
 
 import java.util.Scanner;
 

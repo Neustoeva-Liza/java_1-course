@@ -1,4 +1,4 @@
-package timus;
+package timus.second_semester;
 
 import java.util.HashMap;
 import java.util.Map;
